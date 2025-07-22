@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+ENV/
+.envrc
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kafka logs
+*.kafka.log
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Ignore data files
+samples/testdata/*.json
+samples/testdata/*.csv
